@@ -1,0 +1,57 @@
+{
+  "n_events": 122,
+  "n_launch_ready": 35,
+  "n_killed": 87,
+  "n_would_launch": 3,
+  "n_winners_250k": 21,
+  "n_duds_or_nonwinners": 101,
+  "precision_at_launch": 0.42857142857142855,
+  "precision_at_launch_even": 0.3684210526315789,
+  "precision_at_launch_odd": 0.5,
+  "n_launch_ready_even": 19,
+  "n_launch_ready_odd": 16,
+  "recall": 0.9230769230769231,
+  "n_million": 13,
+  "n_million_surfaced": 12,
+  "adversary_value": -4.0,
+  "adversary_n_blocked_counterfactual": 5,
+  "adversary_interpretation": "adversary is earning its seat (blocked net-negative hypothetical PnL)",
+  "median_latency_minutes": 34.0,
+  "latency_flag": false,
+  "calibration": {
+    "[0,3)": {
+      "n": 7,
+      "winners": 0,
+      "winner_rate": 0.0
+    },
+    "[3,5)": {
+      "n": 29,
+      "winners": 1,
+      "winner_rate": 0.034482758620689655
+    },
+    "[5,6.5)": {
+      "n": 23,
+      "winners": 2,
+      "winner_rate": 0.08695652173913043
+    },
+    "[6.5,8)": {
+      "n": 30,
+      "winners": 11,
+      "winner_rate": 0.36666666666666664
+    },
+    "[8,10]": {
+      "n": 10,
+      "winners": 4,
+      "winner_rate": 0.4
+    }
+  },
+  "status_counts": {
+    "would_launch": 3,
+    "vetoed_gate": 16,
+    "launch_ready": 32,
+    "vetoed_composite": 59,
+    "discarded_uncited": 7,
+    "vetoed_adversary": 5
+  },
+  "corpus_path": "/home/box/sand-data/projects/alpha-swarm/data/corpus/events.jsonl"
+}

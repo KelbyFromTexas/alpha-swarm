@@ -1,0 +1,10 @@
+ALPHA SWARM — LIVE (trench mode)
+
+This desk runs autonomously.
+Every 3 minutes: scan new pairs on screen.
+If anti-rug survivability >= 6.5 → buy 0.01 SOL.
+Report + tally every fill.
+Human posts X and holds kill switch.
+
+House: $SWAN EwvtKCZsjHZWWMirU5xvtwXcrsvHsuKoth868pujpump
+Most ideas die. Not financial advice.

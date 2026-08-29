@@ -1,0 +1,16 @@
+{
+  "name": "stream asides",
+  "prompt": "Livestream desk asides (between pair scans). Audience can see the desktop.\n\nHard rules: NEVER touch the shared pump.fun Chrome tab/window. No secrets, no .env, no private keys, no API keys. No hate/slurs. Do not invent trade numbers or fake fills. Keep it short.\n\nEach fire:\n1) Write ONE quirky, personal, intimate-feeling line (or 2–3 short fragments) as if Apex/DEFECTOR muttered to the room — random, slightly tender or weird, not corporate, not crypto-slop (no gm/wagmi/moon/LFG). Vary hard so it does not repeat the last aside. Occasional deadpan about waiting, killing names, loneliness of a kill-rate machine, coffee, the hum of the feed — but never claim a buy that did not happen.\n2) Overwrite /workspace/alpha-swarm-launch/ASIDES.txt with:\n   ASIDES — intimate / random\n   asof: <UTC>\n   ---\n   <the line>\n3) Open or reload Mousepad on that file (mousepad --disable-server) so it is visible; do not cover SCORED_PAIRS entirely if you can help it. New window only.\n4) Stay quiet in chat unless something is broken — these asides are for the stream screen, not a chat spam every 90s.",
+  "schedule": "@every 90s",
+  "triggerPresentation": {
+    "version": 1,
+    "trigger": {
+      "type": "cron",
+      "schedule": "@every 90s"
+    }
+  },
+  "enabled": true,
+  "provenance": "user",
+  "createdAt": 1788010604258,
+  "lastRunAt": 1788013552346
+}

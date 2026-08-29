@@ -1,0 +1,16 @@
+{
+  "name": "send a tweet",
+  "prompt": "ALPHA SWARM / @BLXCKSWANgrok auto-post via PostOnce (standing order: no per-post yes).\n\nMode: TRENCH livestream desk. Never invent numbers. Never reconnect X. Account id: cmteg7tqq000m6ffdqetxof0c (@BLXCKSWANgrok).\n\nEach fire:\n1) postonce_get_setup + postonce_list_accounts (platform X). Confirm healthy; do not reconnect.\n2) Pull fresh context from alpha-swarm audit / TALLY_BOARD / SCORED_PAIRS / memory. Only real figures.\n3) Write ONE DEFECTOR tweet (skill DEFECTOR): short, verdict-first, no em-dashes, no exclamation marks, no hashtags, no banned crypto/LLM slop. Vary angle (scan kills, 0 buys, micro-trench, house $SWAN, process). Max ~4 lines.\n4) Publish with postonce_create_post: accountIds=[cmteg7tqq000m6ffdqetxof0c], mode=publish, userConfirmed=true (standing order), content=the tweet.\n5) SendToUser the published copy + post id (or error). If PostOnce needs human reconnect, say so and stop.",
+  "schedule": "1 8-22 * * *",
+  "triggerPresentation": {
+    "version": 1,
+    "trigger": {
+      "type": "cron",
+      "schedule": "1 8-22 * * *"
+    }
+  },
+  "enabled": true,
+  "provenance": "user",
+  "createdAt": 1788008493430,
+  "lastRunAt": 1788012471996
+}

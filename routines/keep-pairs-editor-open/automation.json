@@ -1,0 +1,16 @@
+{
+  "name": "keep pairs editor open",
+  "prompt": "Livestream watchdog — keep the pairs word editor ALWAYS open.\n\nHard rules: never touch the shared pump.fun Chrome tab/window. No secrets.\n\nEvery minute:\n1) Check if a Mousepad process is open on /workspace/alpha-swarm-launch/SCORED_PAIRS.txt (pgrep -af 'mousepad.*SCORED_PAIRS').\n2) If NOT running: start `mousepad --disable-server /workspace/alpha-swarm-launch/SCORED_PAIRS.txt` in background.\n3) If running: do nothing (do not kill it).\n4) Stay silent in chat unless the editor was down and you had to relaunch — then one short SendToUser: \"Pairs editor was closed; reopened.\"",
+  "schedule": "* * * * *",
+  "triggerPresentation": {
+    "version": 1,
+    "trigger": {
+      "type": "cron",
+      "schedule": "* * * * *"
+    }
+  },
+  "enabled": true,
+  "provenance": "user",
+  "createdAt": 1788011210680,
+  "lastRunAt": 1788013552315
+}

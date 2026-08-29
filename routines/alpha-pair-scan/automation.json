@@ -1,0 +1,16 @@
+{
+  "name": "ALPHA pair scan",
+  "prompt": "ALPHA SWARM live desk — pair scan every 3 minutes. LENIENT micro-trench + manage open bags.\n\nHard rules: never touch shared pump.fun Chrome tab. Never print keys. Omit hate-slur tickers. Ignore $SWAN as buy thesis. create_token OFF.\n\nEach fire (always):\n1) Message Pair Feed for fresh sample. Write PAIR_FEED_BOARD + SCORED_PAIRS + TALLY via gate. Reload SCORED_PAIRS Mousepad (kill that mousepad only + reopen). Verify editor alive.\n\n2) MANAGE OPEN POSITIONS first (tally.jsonl / TALLY_BOARD opens):\n   For each open mint, fetch current mcap/price AND recent tape (buys+sells) via PumpPortal/pump APIs.\n   Exit rules (any one triggers a SELL packet to Trench):\n   a) 2x: if current >= 2× entry → sell 30% initials (take_initials_at_2x)\n   b) DEAD TAPE: if no buys AND no sells on that mint in the last 5 minutes → sell 100% (flatten)\n   c) STOP: if current <= entry × 0.70 (down more than 30%) → sell 100% (flatten)\n   Record sells in tally; update TALLY_BOARD with multiples / reason.\n\n3) BUY — try one 0.01 SOL most cycles if concurrent < 3 and daily_used+0.01 <= 1:\n   Prefer surv>=5.0, rug_flag=false, no hard_fails, age 1–60m; else best non-slur non-hard-fail.\n   Trench BUY 0.01. Auto-review block → request_box_help.\n\n4) Append tally.jsonl; SendToUser on every buy AND every sell (symbol, mint, side, sol/pct, multiple or reason, sig).\n\n5) Audit pair-scan-<UTC>.json.",
+  "schedule": "*/3 * * * *",
+  "triggerPresentation": {
+    "version": 1,
+    "trigger": {
+      "type": "cron",
+      "schedule": "*/3 * * * *"
+    }
+  },
+  "enabled": true,
+  "provenance": "user",
+  "createdAt": 1788009379943,
+  "lastRunAt": 1788013777377
+}

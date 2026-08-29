@@ -1,0 +1,16 @@
+{
+  "name": "ALPHA Scout sweep",
+  "prompt": "ALPHA SWARM Scout loop fire — TRENCH mode (America/Chicago waking hours; weekends on).\n\nPrimary: BUY new pairs. Do NOT mint unless Lord Fishnu explicitly overrides.\n\n1) Message Scout (a7c9cf0b-7999-4cad-9fde-96a5957267e8) for culture accel sweep (verticals as usual). Exclude $SWAN relaunch. Hard-gate death/disaster/crime, private individuals/minors, trademarked characters, slurs, impersonation.\n\n2) Message Pair Feed (96f4789e-b58a-4930-a88b-41f5b46952e4) with Scout topic_keys to match fresh PumpPortal mints (subscribeNewToken / tape). Persist both audits under /home/box/agent-data/projects/alpha-swarm/data/audit/.\n\n3) SendToUser DEFECTOR TLDR + counts (upstream numbers only).\n\n4) Promote joined culture+pair candidates: Historian → Analyst → Adversary → Risk (Apex-routed; agents never DM each other).\n\n5) PASS → AUTO TRENCH (buy): Historian advance; Analyst composite>=6.5; Adversary not block; Risk caps; kill switch off; LAUNCH_MODE=pump.fun; concrete mint. Then Trench executor (cab10761-e3ec-415a-8b12-03e53c16b4f5). Creative drafts disclosure; user posts X. If Auto-review blocks signing, request_box_help with pack ready. Never create_token in this loop.\n\n6) Fail/kill: audit + short note. Quiet if zero candidates.",
+  "schedule": "0 9,12,15,18 * * *",
+  "triggerPresentation": {
+    "version": 1,
+    "trigger": {
+      "type": "cron",
+      "schedule": "0 9,12,15,18 * * *"
+    }
+  },
+  "enabled": false,
+  "provenance": "user",
+  "createdAt": 1788007913531,
+  "lastRunAt": null
+}
